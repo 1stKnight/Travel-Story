@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageOverlayDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="6dp"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_delete_white"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/imageOverlayShareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="6dp"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toStartOf="@+id/imageOverlayDeleteButton"
+        app:layout_constraintTop_toTopOf="@+id/imageOverlayDeleteButton"
+        app:srcCompat="@drawable/ic_share"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/imageOverlayDownloadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="6dp"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toStartOf="@+id/imageOverlayShareButton"
+        app:layout_constraintTop_toTopOf="@+id/imageOverlayShareButton"
+        app:srcCompat="@drawable/ic_download"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/imageOverlayEditButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="6dp"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toStartOf="@+id/imageOverlayDownloadButton"
+        app:layout_constraintTop_toTopOf="@+id/imageOverlayDownloadButton"
+        app:srcCompat="@drawable/ic_edit_white"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/imageOverlayDescriptionText"
+        style="@style/DescriptionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundDarkTransparent"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

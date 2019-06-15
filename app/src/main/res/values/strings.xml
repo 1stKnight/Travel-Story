@@ -1,0 +1,109 @@
+<resources>
+    <string name="google_maps_key" translatable="false"></string>
+
+    <string name="app_name" translatable="false">TravelStory</string>
+    <string name="text_not_member">No account yet? Create one.</string>
+    <string name="text_alr_member">Already a member? Sign in.</string>
+    <string name="hint_name">Nickname</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signing_in">Signing In</string>
+    <string name="signing_up">Trying to create an account</string>
+    <string name="reset_password">Reset</string>
+    <string name="reset_password_link">Forgot your password?</string>
+    <string name="resetting_password">Sending email…</string>
+    <string name="back_to_login_link">Back to login screen.</string>
+
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_nickname">Enter Valid Nickname</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_message_confirm_password">Confirm Password</string>
+    <string name="error_password_match">Passwords do not match</string>
+
+    <string name="dialog_title">Photo</string>
+    <string-array name="dialog_options">
+        <item>Choose from Gallery</item>
+        <item>Take a picture</item>
+    </string-array>
+
+    <string name="dialog_category_title">Photo</string>
+    <string-array name="dialog_category_options">
+        <item>@string/default_category</item>
+        <item>@string/nature_category</item>
+        <item>@string/friends_category</item>
+    </string-array>
+
+    <string name="dialog_edit_description">Description</string>
+    <string name="dialog_edit_description_hint">Write your description</string>
+    <string name="dialog_edit_description_btn_ok">OK</string>
+    <string name="dialog_edit_description_btn_close">Close</string>
+
+
+    <string name="default_category" translatable="false">Default</string>
+    <string name="nature_category" translatable="false">Nature</string>
+    <string name="friends_category" translatable="false">Friends</string>
+
+    <string name="default_category_color" translatable="false">#03A9F4</string>
+    <string name="nature_category_color" translatable="false">#388E3C</string>
+    <string name="friends_category_color" translatable="false">#FF0068</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_albums">Albums</string>
+    <string name="title_map">Map</string>
+    <string name="title_photos">Photos</string>
+
+    <string name="btn_explore">Explore</string>
+    <string name="btn_share" translatable="false">Share</string>
+
+    <string name="progress_downloading">Downloading…</string>
+    <string name="progress_uploading">Uploading…</string>
+
+    <string name="upload_success">Upload finished</string>
+    <string name="upload_failure">Upload failed</string>
+
+    <string name="download_success">Download finished</string>
+    <string name="download_failure">Download failure</string>
+
+    <string name="delete_album">Do you really want to delete album?</string>
+    <string name="delete_photo">Do you really want to delete photo?</string>
+
+    <string name="sign_out_dialog">Sign Out?</string>
+    <string name="sign_out_button">Sign Out</string>
+
+    <string name="save_exif">Save description and geotag into photos EXIF?</string>
+
+    <string name="loading_header">Loading actual cover and title…</string>
+
+
+    <string name="night_mode">Night Mode</string>
+    <string name="night_mode_desc">Enable night mode for app</string>
+    <string name="night_mode_sys">System Day/Night Mode</string>
+    <string name="night_mode_sys_desc">Apply day/night mode setting from your system</string>
+    <string name="current_night_mode" translatable="false">current_night_mode</string>
+    <string name="settings_title">Settings</string>
+    <string name="categories_title">Categories</string>
+    <string name="change_password_link">Tap here if you want to change your password.</string>
+    <string name="change_email_link">Tap here if you want to change your email.</string>
+    <string name="user_settings">User settings</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="back_to_settings">Return to settings screen.</string>
+    <string name="change_password">Change Password</string>
+    <string name="changing_password">Changing Password…</string>
+    <string name="password_changed">Password changed</string>
+    <string name="your_email">Your email: </string>
+    <string name="hint_new_email">New email</string>
+    <string name="change_email">Change email</string>
+    <string name="changing_email">Changing email…</string>
+    <string name="email_changed">Email changed</string>
+
+
+    <string name="error_user_exists">User already exists</string>
+    <string name="error_invalid_email">Invalid Email. Please check your email address</string>
+    <string name="error_wrong_password">Wrong password</string>
+    <string name="error_weak_password">Weak password. Password should be at least 6 characters long</string>
+</resources>

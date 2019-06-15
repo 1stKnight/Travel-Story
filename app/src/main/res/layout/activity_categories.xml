@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.project.travel.story.Activities.CategoriesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+        <CheckBox
+            android:layout_margin="6dp"
+            android:id="@+id/natureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:text="@string/nature_category"
+            android:checked="true"
+            android:textSize="18sp"
+            android:buttonTint="@color/Nature"
+            android:onClick="onCategoryPicked"/>
+
+        <CheckBox
+            android:layout_margin="6dp"
+            android:id="@+id/friendsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:text="@string/friends_category"
+            android:checked="true"
+            android:textSize="18sp"
+            android:buttonTint="@color/Friends"
+            android:onClick="onCategoryPicked"/>
+
+        <CheckBox
+            android:layout_margin="6dp"
+            android:id="@+id/defaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:text="@string/default_category"
+            android:checked="true"
+            android:textSize="18sp"
+
+            android:buttonTint="@color/Default"
+            android:onClick="onCategoryPicked"/>
+
+</LinearLayout>

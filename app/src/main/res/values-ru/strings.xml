@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TravelStory</string>
+    <string name="btn_explore">Просмотреть</string>
+    <string name="delete_album">Вы действительно хотите удалить альбом?</string>
+    <string name="delete_photo">Вы действительно хотите удалить фото?</string>
+    <string name="dialog_category_title">Фото</string>
+    <string name="dialog_edit_description">Описание</string>
+    <string name="dialog_edit_description_btn_close">Закрыть</string>
+    <string name="dialog_edit_description_btn_ok">Ок</string>
+    <string name="dialog_edit_description_hint">Описание</string>
+    <string name="dialog_title">Фото</string>
+    <string name="download_failure">Скачивание не удалось</string>
+    <string name="download_success">Скачивание завершено</string>
+    <string name="error_message_age">Введитте возраст</string>
+    <string name="error_message_nickname">Введите валидный никнейм</string>
+    <string name="error_message_confirm_password">Подтвердите пароль</string>
+    <string name="error_message_email">Введите валидный email</string>
+    <string name="error_message_password">Введите пароль</string>
+    <string name="error_password_match">Пароли не совпадают</string>
+    <string name="hint_confirm_password">Подтвердите пароль</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Никнейм</string>
+    <string name="hint_password">Пароль</string>
+    <string name="night_mode">Темная тема</string>
+    <string name="night_mode_desc">Включить темную тему</string>
+    <string name="night_mode_sys">Системная тема</string>
+    <string name="night_mode_sys_desc">Применить темную/светлую тему на основе настроек системы</string>
+    <string name="progress_downloading">Скачиваем…</string>
+    <string name="progress_uploading">Загружаем…</string>
+    <string name="save_exif">Сохранить геотег и описание как EXIF данные фотографии?</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_out_button">Выйти</string>
+    <string name="sign_out_dialog">Выйти из приложения?</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="signing_in">Входим в приложение…</string>
+    <string name="signing_up">Пытаемся создать аккаунт…</string>
+    <string name="text_alr_member">Уже зарегестрированы?</string>
+    <string name="text_not_member">Нет аккаунта? Создайте!</string>
+    <string name="title_activity_maps">Карта</string>
+    <string name="title_albums">Альбомы</string>
+    <string name="title_map">Карта</string>
+    <string name="title_photos">Фото</string>
+    <string name="upload_failure">Загрузка не удалась</string>
+    <string name="upload_success">Загрузка завержена</string>
+    <string-array name="dialog_options">
+        <item>Выбрать из галереи</item>
+        <item>Сделать фото</item>
+    </string-array>
+    <string name="settings_title">Настройки</string>
+    <string name="categories_title">Категории</string>
+    <string name="loading_header">Загружаем обложку и название…</string>
+    <string name="reset_password">Cбросить пароль</string>
+    <string name="back_to_login_link">Вернуться на экран авторизации.</string>
+    <string name="resetting_password">Отправляем сообщение…</string>
+    <string name="reset_password_link">Забыли пароль?</string>
+    <string name="change_password_link">Нажмите сюда если хотите изменить пароль.</string>
+    <string name="change_email_link">Нажмите сюда если хотите изменить почту.</string>
+    <string name="user_settings">Настройки пользователя</string>
+    <string name="hint_new_password">Новый Пароль</string>
+    <string name="back_to_settings">Вернуться на экран настроек.</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="changing_password">Меняем пароль…</string>
+    <string name="your_email">Ваша почта: </string>
+    <string name="hint_new_email">Новая почта</string>
+    <string name="change_email">Изменить почту</string>
+    <string name="changing_email">Меняем почту…</string>
+    <string name="email_changed">Почта изменена</string>
+
+    <string name="password_changed">Пароль изменен</string>
+
+    <string name="error_user_exists">Пользователь уже существует</string>
+    <string name="error_invalid_email">Введена некорректная почта.</string>
+    <string name="error_wrong_password">Неверный пароль</string>
+    <string name="error_weak_password">Слабый пароль. Пароль должен быть длиннее 6 символов</string>
+
+</resources>

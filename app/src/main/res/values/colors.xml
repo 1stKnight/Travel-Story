@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteTransparent">#95FFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000060</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="backgroundDarkTransparent">#551e272b</color>
+
+    <color name="nav_button_follow">#2196F3</color>
+    <color name="nav_button_discovery">#9E9E9E</color>
+    <color name="sign_out_background">#95F13030</color>>
+
+    <color name="Default">#03A9F4</color>
+    <color name="Nature">#388E3C</color>
+    <color name="Friends">#FF0068</color>
+
+    <color name="dialogTitle">#555</color>
+    <color name="dialogEditText">#333</color>
+
+
+    <color name="albumCardTitle">#111</color>
+    <color name="albumCardBG">#7fff</color>
+    <color name="albumCardDesc">#333</color>
+
+    <color name="orange">#FFAB40</color>
+
+</resources>
